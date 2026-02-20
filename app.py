@@ -185,7 +185,7 @@ def main():
 
         # Checkbox obrigatório de declaração
         declaracao = st.checkbox(
-            "☑ Declaro que sou o proprietário do arquivo ou que possuo autorização expressa para remover sua proteção."
+            "Declaro que sou o proprietário do arquivo ou que possuo autorização expressa para remover sua proteção."
         )
 
         if st.button("Desproteger Arquivo"):
